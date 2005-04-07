@@ -1,0 +1,34 @@
+NAME
+    Acme::AutoColor - automatic color names
+
+SYNOPSIS
+      use Acme::AutoColor;
+
+      $red   = RED();    # 'ff0000'
+      @green = GREEN();  # (0, 255, 0)
+
+DESCRIPTION
+    This module uses an AUTOLOAD function which assumes unrecognized methods
+    are color names.
+
+    Color names are case-insensitive, though style-wise one should probably
+    use all capitals.
+
+    It returns a hex string or a an array of RGB triplets depending on the
+    calling context.
+
+    Color schemes may be specified in the use line:
+
+      use Acme::AutoColor qw( X HTML );
+
+SEE ALSO
+    Graphics::ColorNames
+
+AUTHOR
+    Robert Rothenberg <rrwo at cpan.org>
+
+LICENSE
+    Copyright (c) 2005 Robert Rothenberg. All rights reserved. This program
+    is free software; you can redistribute it and/or modify it under the
+    same terms as Perl itself.
+

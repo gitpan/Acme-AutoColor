@@ -1,0 +1,8 @@
+Build.PL
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Acme-AutoColor.t
+lib/Acme/AutoColor.pm
+SIGNATURE    Added here by Module::Build
