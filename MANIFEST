@@ -1,8 +1,9 @@
-Build.PL
 Changes
-Makefile.PL
-MANIFEST
-README
-t/Acme-AutoColor.t
 lib/Acme/AutoColor.pm
-SIGNATURE    Added here by Module::Build
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+README
+t/01-standard-colors.t
+t/02-octarine.t
+META.yml                                 Module meta-data (added by MakeMaker)
