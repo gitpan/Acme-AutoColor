@@ -6,7 +6,7 @@ use warnings;
 
 use Graphics::ColorNames 0.32;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 our $Colors;
 

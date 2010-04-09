@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme::AutoColor.
 
+0.03  Fri Apr 09 15:00:00 2010
+	- Added some more self tests
+
 0.02  Mon Mar 29 16:09:35 2010
 	- maintenance taken over by Rene Schickbauer
 

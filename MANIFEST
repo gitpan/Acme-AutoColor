@@ -6,4 +6,6 @@ MANIFEST.SKIP
 README
 t/01-standard-colors.t
 t/02-octarine.t
+t/03-pod.t
+t/04-podcoverage.t
 META.yml                                 Module meta-data (added by MakeMaker)
